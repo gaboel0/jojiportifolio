@@ -1,0 +1,37 @@
+.navbar {
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.itens {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start; /* Posiciona os itens no início do contêiner */
+  align-items: center;
+}
+
+.nav-title {
+  color: black;
+  margin-right: 20px; /* Adicionei margem para separar o título dos links */
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightgray;
+}
+
+.itens-list {
+  display: flex;
+  list-style-type: none; /* Removi a tag <div> extra e adicionei a propriedade para remover os bullets */
+}
+
+.nav-item {
+  margin: 0 10px; /* Adicionei margem para separar os itens */
+}
