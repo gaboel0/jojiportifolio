@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CarouselModule } from 'primeng/carousel';
+
 
 @Component({
   selector: 'app-carroussel',
@@ -8,5 +10,4 @@ import { Component } from '@angular/core';
   styleUrl: './carroussel.component.scss'
 })
 export class CarrousselComponent {
-
 }
