@@ -1,4 +1,5 @@
 
+
 .navbar {
   background-color: red;
   position: fixed;
@@ -18,6 +19,8 @@
 .nav-title {
   color: black;
   margin-right: 20px; /* Adicionei margem para separar o título dos links */
+  margin-top: 20px;
+  font-weight: 700;
 }
 
 .nav-link {
